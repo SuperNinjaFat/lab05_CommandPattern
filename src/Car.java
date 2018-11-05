@@ -1,21 +1,21 @@
-
 public class Car {
 
-	public Car() {};
-	
+	public Car() {
+	};
+
 	public void turnLeft() {
-		System.out.println("Turning left");
+		System.out.println("The car is turning left");
 	}
-	
+
 	public void turnRight() {
-		System.out.println("Turning right");
+		System.out.println("The car is turning right");
 	}
-	
+
 	public void speedUp() {
-		System.out.println("Speeding up");
+		System.out.println("The car is speeding up");
 	}
-	
+
 	public void slowDown() {
-		System.out.println("Slowing down");
+		System.out.println("The car is slowing down");
 	}
 }

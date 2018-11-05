@@ -1,8 +1,8 @@
 
-public class SpeedDown implements Command {
+public class SlowDown implements Command {
 	Car car;
-	
-	public SpeedDown(Car car) {
+
+	public SlowDown(Car car) {
 		this.car = car;
 	}
 
